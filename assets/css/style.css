@@ -196,3 +196,19 @@ th {
 tr:nth-child(even) td {
   background: rgba(19, 34, 51, 0.45);
 }
+
+figure {
+  counter-increment: figure;
+}
+
+figcaption::before {
+  content: "Figure " counter(figure) ": ";
+  font-weight: 600;
+  color: var(--accent);
+  font-style: normal;
+}
+
+
+
+
+
