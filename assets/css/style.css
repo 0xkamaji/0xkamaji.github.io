@@ -201,11 +201,25 @@ figure {
   counter-increment: figure;
 }
 
+/* ===== Add captions to figures ===== */
+
 figcaption::before {
   content: "Figure " counter(figure) ": ";
   font-weight: 600;
   color: var(--accent);
   font-style: normal;
+}
+
+/* ===== Centered Blockquotes ===== */
+
+.center-quote {
+  text-align: center;
+}
+
+.center-quote blockquote {
+  display: inline-block;
+  text-align: left; /* keeps it readable */
+  margin: 0;
 }
 
 
