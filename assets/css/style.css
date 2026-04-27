@@ -210,12 +210,25 @@ figcaption::before {
   font-style: normal;
 }
 
-/* ===== Focus block ===== */
+/* ===== Focused Content Block (centered, constrained width) ===== */
 
 .focus-block {
-  max-width: 650px;
-  margin: 1.5rem auto; /* THIS centers the block */
-  color: var(--muted); /* optional styling */
+  max-width: 650px;            /* controls how narrow the block is */
+  margin: 1.5rem auto;         /* centers it horizontally */
+  padding: 16px 20px;          /* spacing inside the block */
+
+  background: rgba(16, 27, 39, 0.6);  /* matches your glass theme */
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  backdrop-filter: blur(6px);
+
+  color: var(--muted);         /* optional: softer text like your meta text */
+  line-height: 1.6;
+}
+
+/* Optional: tighten spacing if you use paragraphs inside */
+.focus-block p {
+  margin: 0;
 }
 
 
