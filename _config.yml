@@ -1,0 +1,8 @@
+title: "Poncho Bear Labs"
+description: "Reverse engineering writeups, projects, and practical cybersecurity notes."
+url: ""
+baseurl: ""
+markdown: kramdown
+permalink: /writeups/:title/
+timezone: America/Denver
+
