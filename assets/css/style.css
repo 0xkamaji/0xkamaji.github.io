@@ -210,16 +210,12 @@ figcaption::before {
   font-style: normal;
 }
 
-/* ===== Centered Blockquotes ===== */
+/* ===== Focus block ===== */
 
-.center-quote {
-  text-align: center;
-}
-
-.center-quote blockquote {
-  display: inline-block;
-  text-align: left; /* keeps it readable */
-  margin: 0;
+.focus-block {
+  max-width: 650px;
+  margin: 1.5rem auto; /* THIS centers the block */
+  color: var(--muted); /* optional styling */
 }
 
 
