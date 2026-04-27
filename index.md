@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 <section class="hero card">
-  <p class="eyebrow">Reverse Engineering / Malware Analysis / Defensive Tradecraft</p>
+  <p class="eyebrow">This here is my RE Site :D</p>
   <h1>Writeups and notes from the lab.</h1>
   <p class="lede">
     A home for reverse engineering writeups, malware analysis notes, small security projects,
