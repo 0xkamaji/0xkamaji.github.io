@@ -101,6 +101,48 @@ a {
   margin-bottom: 24px;
 }
 
+.feature-stack {
+  margin-bottom: 24px;
+}
+
+.feature-panel {
+  display: block;
+  padding: 28px;
+  color: var(--text);
+  text-decoration: none;
+  background: linear-gradient(135deg, rgba(16, 27, 39, 0.94), rgba(19, 34, 51, 0.94));
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  transition: transform 180ms ease, border-color 180ms ease, box-shadow 180ms ease;
+}
+
+.feature-panel:hover,
+.feature-panel:focus-visible {
+  transform: translateY(-2px);
+  border-color: var(--accent);
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.18);
+}
+
+.feature-panel h2 {
+  margin: 8px 0 10px;
+  font-size: clamp(1.8rem, 3vw, 2.6rem);
+}
+
+.feature-panel p {
+  margin: 0;
+  color: var(--muted);
+  max-width: 42rem;
+}
+
+.feature-label {
+  display: inline-block;
+  color: var(--accent);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
 .card,
 .post {
   padding: 24px;
@@ -243,8 +285,6 @@ span code {
   border-radius: 6px;
   font-size: 0.95em;
 }
-
-
 
 
 
